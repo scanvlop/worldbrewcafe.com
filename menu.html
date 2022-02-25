@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html>
+<title>Menu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+  body,
+  h1,
+  h5 {
+    font-family: "Raleway", sans-serif
+  }
+
+  body,
+  html {
+    height: 100%
+  }
+
+  .bgimg {
+    background-image: url("backim.jpg");
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+</style>
+
+<body>
+
+  <div class="bgimg w3-display-container w3-text-white">
+    <div class="w3-display-middle w3-jumbo">
+      <p></p>
+    </div>
+    <div class="w3-display-center w3-container w3-xlarge">
+      <p><button onclick="document.getElementById('Beverages').style.display='block'" class="w3-button w3-black">Beverages</button></p>
+      <p><button onclick="document.getElementById('veg').style.display='block'" class="w3-button w3-black">Veg</button></p>
+      <p><button onclick="document.getElementById('Nonveg').style.display='block'" class="w3-button w3-black">Non-Veg</button></p>
+      <p><button onclick="document.getElementById('Breakfast').style.display='block'" class="w3-button w3-black">Breakfast</button></p>
+      <p><button onclick="document.getElementById('Deserts').style.display='block'" class="w3-button w3-black">Deserts</button></p>
+      <p><button onclick="document.getElementById('Addons').style.display='block'" class="w3-button w3-black">Add-Ons</button></p>
+
+
+    </div>
+    <div class="w3-display-bottomleft w3-container">
+    </div>
+  </div>
+
+  <!-- Menu Modal -->
+  <!--beverages modal-->
+  <div id="Beverages" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('Beverages').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Hot Refreshments</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Normal Tea <b>30/-</b> </h5>
+        <h5> Black Tea <b>30/-</b> </h5>
+        <h5>Masala Tea <b>30/-</b></h5>
+        <h5> Ginger Tea <b>30/-</b></h5>
+        <h5> Lemon Tea <b>30/-</b></h5>
+        <h5> Green Tea <b>30/-</b></h5>
+        <h5>Indian Filter Coffee <b>35/-</b></h5>
+        <h5> Plain Milk <b>35/-</b></h5 <h5> Horlicks <b>35/-</b></h5>
+        <h5> Boost <b>35/-</b></h5>
+        <h5> Badam Milk <b>35/-</b></h5>
+        <h5> Black coffee <b>35/-</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Hot Chocolate</h1>
+      </div>
+      <div class="w3-container">
+        <h5> Belgium Hot Chocolate. <b>85/-</b> </h5>
+        <h5> Hazelnut Hot Chocolate. <b>85/-</b> </h5>
+        <h5>Irish Hot Chocolate <b>85/-</b> </h5>
+        <h5> Mint Hot Chocolate <b>85/-</b> </h5>
+        <h5> Caramel Hot Chocolate <b>85/-</b> </h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Soda's</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Peach Ice Soda <b>90/-</b> </h5>
+        <h5> 2. Italian Soda <b>90/-</b></h5>
+        <h5> 3. Margherita Soda <b>90/-</b> </h5>
+        <h5> 4. Passion Fruit Soda . <b>90/-</b> </h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Lemonades</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Fresh Lime <b>75/-</b> </h5>
+        <h5> 2. Fresh Lime Soda <b>90/-</b> </h5>
+        <h5>
+          <h5> 3. Mint Lime <b>99/-</b> </h5>
+          <h5> 4. Jeera Lemonade <b>99/-</b> </h5>
+          <h5> 5. Blue Lemonade <b>99/-</b></h5>
+          <h5> 6. Pink Lemonade <b>99/-</b> </h5>
+          <h5> 7. Purple Lemonade <b>99/-</b></h5>
+          <h5> 8. Passion Fruit Lemonade <b>99/-</b> </h5>
+          <h5> 9. Spiced Pineapple <b>99/-</b> </h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Mojitos</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Classic Mojito <b>125/-</b> </h5>
+        <h5> 2. Blue Mojito <b>125/-</b> </h5>
+        <h5> 3.Watermelon Basil Mojito <b>125/-</b> </h5>
+        <h5> 4. Passionfruit Mojito <b>125/-</b> </h5>
+        <h5> 5. Greenapple Mojito <b>125/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Iced Tea</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Lemon Iced Tea <b>80/-</b> </h5>
+        <h5> 2. Peach Iced Tea <b>80/-</b> </h5>
+        <h5> 3. Blueberry Ginger Iced Tea <b>90/-</b> </h5>
+        <h5> 4. Elderflower Iced Tea <b>90/-</b></h5>
+        <h5> 5. Passionfruit Iced Tea <b>90/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Iced Coffee</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Classic Iced Coffee <b>85/-</b> </h5>
+        <h5> 2. Vanilla Iced Coffee <b>75/-</b></h5>
+        <h5> 3. Mint Iced Coffee <b>95/-</b></h5>
+        <h5> 4. Caramel Iced Coffee <b>95/-</b> </h5>
+        <h5> 5. Chocolate-Y Mocha Iced <b>95/-</b> </h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Cold Coffee</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Classic Cold Coffee <b>129/-</b> </h5>
+        <h5> 2. Hazelnut Cold Coffee <b>129/-</b> </h5>
+        <h5> 3. Irish Cold Coffee <b>139/-</b></h5>
+        <h5> 4. Caramel Cold Coffee <b>139/-</b> </h5>
+        <h5> 5. Mocha Cold Coffee <b>159/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Choco Delights</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Choco Peanut Butter <b>139/-</b> </h5>
+        <h5> 2. Choco Caramel <b>139/-</b> </h5>
+        <h5> 3. Choco Oreo <b>149/-</b></h5>
+        <h5> 4. Dark Fantacy <b>139/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Desi & Healthy</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Kassingand Black <b>139/-</b> </h5>
+        <h5> 2. Pista Shake <b>139/-</b> </h5>
+        <h5> 3. Jharfer Coconut  <b>139/-</b></h5>
+        <h5> 4.Mango Rose  <b>139/-</b></h5>
+        <h5> 5.Arabian Delight  <b>139/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Think Heigh</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Bounty Shake <b>149/-</b> </h5>
+        <h5> 2. Caramel Popcorn <b>149/-</b> </h5>
+        <h5> 3. Redvelvet Shake <b>149/-</b> </h5>
+        <h5> 4. Snickers boosty <b>149/-</b> </h5>
+        <h5> 5. Ferrero Rocher <b>149/-</b> </h5>
+        <h5> 6. Choco Caramel Kitkat <b>149/-</b> </h5>
+        <h5> 7. Choco Nutty  <b>149/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Fruit Shake</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1. Strawberry Shake <b>125/-</b> </h5>
+        <h5> 2. Very Berry Shake <b>139/-</b> </h5>
+        <h5> 3. Mango Shake <b>125/-</b> </h5>
+        <h5> 4. ShaMberry Banana . <b>159/-</b> </h5>
+        <h5> 5.harre Coconut <b>125/-</b> </h5>
+      </div>
+    </div>
+  </div>
+  <!--Veg modal-->
+  <div id="veg" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('veg').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Soup String</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1.Cream Of Mushroom.
+          (Deliciously creamy soup with
+          tender bites of mushroom pieces.)<b>139/-</b> </h5>
+        <h5>2.Minestrone.
+          (Hearty, filling and wholesome - packed
+          with vegetables, pasta tomato broth.) <b>130/-</b></h5>
+        <h5>3.Tomato & Basil
+          (Fresh tomatoes and basil make this soup
+          creamy and full of incredible flavours.) <b>139/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Salad</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1.Ceasac
+          (A green salad of lettuce and crispy
+          seasoned croutons tossed with lemon
+          juice, olive oil, garlic, grated cheese.) <b>139/-</b> </h5>
+        <h5> 2.Santefe 149
+          (Crisp colourful veggies, crunchy
+          nachos, delicious dressing and
+          flavourful spice from the jalapenos.) <b>149/-</b> </h5>
+        <h5> 3.Griled Cottage 159
+          Cheese
+          (Fresh cottage cheese marinated,
+          grilled and tossed with onions, bell
+          peppers and a honey balsamic dressing.) <b>159/-</b> </h5>
+        <h5> 4.Saute Vegetables <b>139/-</b> </h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Quick Bites</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1.Salted Fries
+          ( Potatoes sprinkled with salted and deep
+          fried for deliciousness.) <b>95/-</b> </h5>
+        <h5> 2. Cheesy Fries
+          (Crispy fries with a burst of cheesy flavours..) <b>139/-</b> </h5>
+        <h5> 3.Peri Peri Fries
+          (Crispy fries, sprinkled with a
+          peri peri seasoning.) <b>139/-</b> </h5>
+        <h5> 4.Mexican fries
+          (Crispy fries with a chunky salsa
+          and gooey cheese sauce.) <b>139/-</b> </h5>
+        <h5> 5.Masala Fries Spicu
+          (Crispy fries tossed with a hot
+          and spicy seasoning.) <b>179/-</b> </h5>
+        <h5> 6.Cheese veg fingers
+          (Cheese veg fingers are Butter tossed
+          vegetable fingers combine with cheese
+          and potato base and then coated with
+          corn flakes) <b>139/-</b> </h5>
+        <h5> 7.Garlic Bread
+          (Toasted bread with a buttery garlic center.) <b>110/-</b> </h5>
+        <h5> 8. Gadic Bread With Cheese
+          (Toasted bread with a buttery garlic centei
+          and freshly shredded parmesan.) <b>149/-</b> </h5>
+        <h5> 9. Chilli Cheese Toast
+          (Toasted bread with a cheesy chilli topping.) <b>159/-</b> </h5>
+        <h5> 10. Jalapeno Poppers
+          (Breaded and deep fried Jalapenos stuffed
+          with a mixture of cheese and spices.) <b>159/-</b> </h5>
+        <h5> 11. Com Fries Mozzerella Sticks 179
+          (Breaded and deep fried cheese sticks.) <b>179/-</b> </h5>
+        <h5> 12. Stuffed Gadic Mushroom
+          (Baked mushrooms stuffed with
+          cheese, garlic and parsley.) <b>179/-</b> </h5>
+        <h5> 13. Fully Loaded nachos veg
+          Tortilla chips, veggies and cheese
+          topped with a rich tomato salsa.) <b>159/-</b> </h5>
+        <h5> 14.Potato Wedges <b>129/-</b> </h5>
+        <h5> 15.Onion Rings <b>139/-</b> </h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Wrapes</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Basil Pest
+          Cottage Cheese
+          (Grilled cottage cheese and veggies
+          tossed with fresh basil pesto sauce
+          wrapped with our homemade
+          tortilla bread.). <b>139/-</b> </h5>
+        <h5> 2.
+          Mexican Style
+          Cheese
+          (Black beans, sweet corn, jalapenos
+          and bell peppers pepped up with a
+          Mexican sauce wrapped with cheese
+          and our homemade tortilla bread.). <b>139/-</b> </h5>
+        <h5> 3.
+          Grilled Vegetable
+          (Grilled seasonal vegetables tossed in
+          olive oil wrapped with cheese and our
+          homemade tortilla bread.). <b>129/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Marine</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1. Spicy Cottage
+          cheese
+          Delicious cottage cheese, onions and
+          capsicum tossed in a spicy sauce
+          on toasted hotdog bread.) <b>139/-</b> </h5>
+        <h5>2. Creamy Coleslaw
+          (Delightfully creamy mix veggie
+          coleslaw filling with mayonnaise on
+          toasted hotdog bread.) <b>139/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Sandwich</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1. Grilled Vegetable
+          139
+          (Perfectly grilled veggies tossed with
+          balsamic vinegar and mayonnaise
+          on toasted bread.) <b>139/-</b> </h5>
+        <h5> 2.
+          Corn & Spinach
+          139
+          (Veggie sandwich with sweet corn,
+          spinach, lettuce and tomatoes in a
+          creamy mayonnaise.) <b>139/-</b> </h5>
+        <h5> 3.
+          Coleslow
+          139
+          (Delightfully creamy sandwiches
+          with a mix veggie coleslaw filling
+          and mayonnaise.) <b>139/-</b> </h5>
+        <h5> 4.
+          World B Club
+          ... 179
+          (Our in-house sandwich loaded with
+          cheese, tomatoes, onions and
+          cucumbers on toasted bread. ) <b>179/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Burger</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Classic all veggie
+          (Packed with flavorful veggies topped
+          with creamy mayonnaise served in a
+          burger bun.) <b>139/-</b> </h5>
+        <h5> 2. Mexican Bean
+          (Delicious Mexican flavors in a burger -
+          kidney beans, potatoes, lettuce and
+          tomatoes with creamy mayonnaise.) <b>139/-</b> </h5>
+        <h5> 3.
+          American Cheesy
+          (Rich, creamy, cheesy! Delicious
+          cheeseburger with melted American
+          cheese and veggies.) <b>179/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Pasta</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Penne Alfredo
+
+          (Penne tossed with mushrooms in a
+          creamy Alfredo sauce.) <b>229/-</b> </h5>
+        <h5>2. Penne Chunky
+          Tomoto
+          (Penne tossed with fresh tomatoes,
+          garlic and a classic Arrabiata sauce.) <b>229/-</b> </h5>
+        <h5>3.
+          Speghetti Agli-Olio
+          (A classic Italian pasta featuring spaghetti,
+          olive oil and garlic finished with a sprinkle
+          of red pepper flakes and olives.) <b>239/-</b> </h5>
+        <h5>4,
+          Olive Blasta
+          (Penne tossed with olives and a rich tomato
+          sauce flavoured with cheese, fresh cream
+          and herbs.) <b>229/-</b> </h5>
+        <h5>.
+          Baked Mac And
+          Cheese
+          (Creamy, cheesy and delicious - baked
+          macaroni loaded with melted cheese.) <b>239/-</b> </h5>
+        <h5>6.
+          Mix veg Lasagne
+          (Sheets of lasagne layered with a rich
+          tomato sauce, chilly sauce and seasonal
+          veggies drizzled with cheese and baked
+          till golden brown.) <b>249/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Pizza</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Marghetita
+
+          (Simple, delicious pizza featuring our
+          classic homemade sauce, fresh basil
+          and Mozzarella cheese.) <b>199/-</b> </h5>
+        <h5> 2. Veggie Royal
+
+          (Classic veggie pizza loaded with
+          zucchini, olives and Mozzarella cheese).<b>239/-</b> </h5>
+        <h5> 3. Al Fungi
+
+          (Traditional pizza that is topped with
+          tomato sauce, Mozzarella cheese, grilled
+          mushrooms, diced onions, olive oil and
+          parsley.)<b>239/-</b></h5>
+        <h5> 4.
+          Mexican Delight
+
+          (Loaded with veggies, nachos and a rich
+          flavourful salsa sauce, this Mexican
+          Delight will be your go-to meal.)<b>239/-</b></h5>
+        <h5> 5.
+          Tandoori Paneer
+
+          Tikka Pizza
+          (Desi variation of delicious pizza flavoured
+          with marinated paneer, onions, green
+          chillies and coriander.)<b>249/-</b></h5>
+        <h5> 6.
+          Meditettanean
+
+          (Delicious pizza featuring Mozzarella
+          cheese, organic green basil pesto, onions,
+          tomatoes and bell peppers.)<b>249/-</b></h5>
+        <h5> 7. Garden Fresh Pizza
+          (Eating veggies are easy when they're
+          part of a delicious pizza and loaded with
+          Mozzarella cheese! Onions, garlic,
+          capsicum, olives, and zucchini.)<b>249/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Mains Sea</h1>
+      </div>
+      <div class="w3-container">
+
+        <h5> 1. Cottaqe Cheese
+
+          Steak
+          (A simple wholesome and fulfilling
+          grilled cottage cheese steak served
+          with mixed veggies, red pepper sauce
+          and rice.)<b>249/-</b></h5>
+        <h5> 2.
+          Veq. Augratin
+
+          (A lip smacking dish that is creamy
+          with a crusty top - veggies baked in
+          an alfredo sauce. Served with
+          garlic bread)<b>249/-</b></h5>
+        <h5> 3. Cheese Steak
+
+          (With fresh veggies, cheese cubes
+          and creamy mustard sauce this
+          cheese steak is delicious and hearty.)<b>249/-</b></h5>
+        <h5> 4.
+          Vegetable Shashik....
+
+          (Delicious marinated veggies and
+          cottage cheese skewers grilled to
+          perfection. Served with buttered
+          veggies and rice.)<b>249/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>BRUSCHETTA</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1.
+          Tomato Bruschetta.. 149
+          (Tomato,fresh basil, balsamic
+          vinegar, and spread on a warm
+          slice of perfectly crisp
+          toasted bread)<b>149/-</b></h5>
+        <h5> 2. Veg Bruschetta
+          149
+          (Vegitables,fresh basil, balsamic
+          vinegar, and spread on a
+          warm slice of perfectly crisp
+          toasted bread) <b>149/-</b></h5>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="Nonveg" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('Nonveg').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Soup String</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1. Cream of Chicken
+        (Comforting and creamy soup with
+        delicious chicken bites.) <b>159/-</b></h5>
+      <h5>  2.Minestrone Chicken
+        (Rich and flavourful thick soup packed
+        with chicken and veggies.) <b>149/-</b></h5>
+      <h5>  3.Maxican Chicken
+        (Full of bold flavours from tender chunks
+        of chicken with tomatoes, sweet com,
+        beans and carrots in a savoury tomato broth.) <b>149/-</b></h5>
+      <h5>  4.Spicy Lemon & coriander
+        (Clear vegetable soup flavoured with tangy
+        lemon and citrus noles from (ne coriander) <b>149/-</b></h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Salad</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1.Ceasar 185
+        (A green salad of lettuce and croutons
+        tossed with lemon juice, olive oil,
+        garlic, grated cheese.) <b>185/-</b> </h5>
+      <h5>  2.Grilled Chicken
+        (A fresh and light salad with juicy
+        grilled chicken, tomatoes, lettuce,
+        and onion tossed with a simple oil
+        and vinegar dressing.) <b>185/-</b> </h5>
+      <h5>  3.Santafe Chicken
+        (Spicy grilled chicken, crisp colourful
+        veggies, crunchy nachos, delicious
+        dressing and flavourful spice from
+        the jalapenos.) <b>185/-</b> </h5>
+
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Quick Bites</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1. Fish Finger
+        (Fish finger are Butter tossed vegetable
+        fingers combine with cheese and potato
+        base and then coated with corn flakes).<b>199/-</b> </h5>
+      <h5>  2. Chicken Finger
+        (Chicken finger are Butter tossed vegetal
+        lingers combine with cheese and polate
+        base and then coated withcorn).<b>179/-</b></h5>
+      <h5>  3. Chicken Popcorn
+        (Crisp, fried, bite-sized tender chicken.)<b>159/-</b></h5>
+    <h5>    4. Fish Fieru
+        (Succulent fish marinated in a fiery
+        paste and grilled until it has a crispy skin.)<b>210/-</b></h5>
+      <h5>  5. Pasto Grilled Chicken
+        (Chicken marinated in earthy fresh
+        basil pesto and grilled to perfection.)<b>210/-</b></h5>
+      <h5>  6. Butter Chicken Meatballs
+        (Chicken meatballs cooked in a creamy,
+        butter sauce and spiced to perfection.)<b>210/-</b></h5>
+      <h5>  7.Peri Peri Chicken Skewers
+        (Chargrilled chicken skewers smothered
+        with a spicy, smoky sauce.)<b>230/-</b></h5>
+      <h5>  8. BBQ Chicken Wings
+        (Crispy baked chicken wings
+        smothered in a spicy, sweet and tangy
+        barbecue sauce).<b>230/-</b></h5>
+      <h5>  9. Buffalo Chicken wings
+        (Baked crispy buffalo chicken wings
+        tossed in a classic spicy sauce.)<b>230/-</b></h5>
+      <h5>  10. World Brew Grilled Drumsticks
+        (Our special super juicy, flavourful
+        seasoning and perfectly cooked
+        through Grilled Chicken Drumsticks.)<b>230/-</b></h5>
+      <h5>  11.Nachos De polo
+        (Tortilla chips loaded with juicy flavourful
+        shredded chicken, melted cheese,
+        sour cream and guacamole)<b>230/-</b></h5>
+      <h5>  12. Butter Fly Prawns
+        (Beautiful prawns coated).<b>270/-</b></h5>
+      <h5>  13. Prawns Agli-olio
+        (Lightly Nlavoured spaghetti pasta
+        sautéed in olive oil and garlic with
+        deliciously seasoned prawns.)<b>270/-</b></h5>
+      <h5>  14. Crispy Chicken  <b>199/-</b></h5>
+    <h5>    15. Chicken Nuggets  <b>179/-</b></h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Wrapes</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1.
+        Tex Max Chicken
+
+        (Shredded supreme chicken and
+        veggies tossed with a Tex Mex sauce
+        wrapped in our homemade tortilla bread.)<b>149/-</b></h5>
+      <h5>  2.
+        Spicy Sausage
+
+        (Chicken sausages and veggies tossed
+        with our special spicy sauce and
+        mayonnaise wrapped in our homemade
+        tortilla bread.)<b>159/-</b></h5>
+      <h5>  3. Cajun Chicken
+
+        (Cubes of chicken tossed with Cajun
+        spice and mayonnaise wrapped in our
+        homemade tortilla bread.)<b>149/-</b></h5>
+
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Marine</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1. Smoked Chicken
+
+        Sausages
+        (Toasted hotdog bread with flavourful
+        smoked chicken sausages, onions,
+        capsicum and plenty of mayonnaise.) <b>159/-</b></h5>
+      <h5>  2. Chicken Coleslaw
+
+        (Delightfully creamy chicken and mix
+        veggie coleslaw filling with
+        mayonnaise on toasted hotdog bread.)<b>145/-</b></h5>
+
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Sandwich</h1>
+      </div>
+      <div class="w3-container">
+
+      <h5> 1. Grilled Chicken
+
+        (Flavourful grilled chicken, onions, tomatoes,
+        lettuce and mayo sandwiched between
+        toasted bread.)<b>159/-</b></h5>
+      <h5> 2. Ceasat Chicken
+
+        (Creamy shredded chicken, bell peppers
+        and onions tossed with parmesan cheese
+        and mayonnaise on toasted bread.)<b>149/-</b></h5>
+      <h5> 3. Would B NON-VEG CLUB
+        (Our in-house club sandwich loaded with
+        roasted chicken, fried egg, tomatoes,
+        cucumbers and a whole lot of cheese)<b>185/-</b></h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Burger</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1. Grilled Chicken
+        (Juicy grilled chicken topped with
+        lettuce, tomatoes and mayonnaise
+        served in a burger bun.)<b>185/-</b></h5>
+      <h5>  2. Crispy Chicken
+        (Fried chicken bursting with flavor,
+        mayonnaise, lettuce, tomatoes served
+        in a burger bun.)<b>185/-</b></h5>
+      <h5>  3. Peri Peri Chicken
+        (Grilled chicken tossed in peri peri
+        sauce served in a burger bun).<b>199/-</b></h5>
+
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Pasta</h1>
+      </div>
+      <div class="w3-container">
+    <h5>    1,
+        Penne Chicken
+
+        Alfredo
+        (Penne tossed with tender grilled
+        chicken in a creamy Alfredo sauce.)<b>249/-</b></h5>
+      <h5>  2. Penne Chicken
+
+        Alpesto
+        (Juicy chicken and tender pasta
+        smothered in a luscious cream and
+        basil pesto sauce topped with cheese.)<b>249/-</b></h5>
+      <h5>  3. Hunda Pasta
+
+        (Seafood pasta with fish and prawns
+        tossed with a rich tomato sauce and
+        cream sauce).<b>249/-</b></h5>
+    <h5>    4,
+        Chicken mac
+
+        And Cheese
+        (Baked macaroni loaded with juicy
+        chicken and melted cheese.)<b>249/-</b></h5>
+      <h5>  5.Speghetti Agli-olio praws
+        (A classic Italian pasta featuring spaghetti,
+        prawns, olive oil and garlic finished with a
+        sprinkle of red pepper flakes and olives.)
+         <b>289/-</b></h5>
+    <h5>    6.
+
+        Chicken Lasagne
+        (Sheets of lasagne layered with a rich
+        tomato sauce, chilly sauce and minced
+        chicken drizzled with cheese and baked till golden brown). <b>289/-</b></h5>
+
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Pizza</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1.
+        Spicy Chicken Pizza
+        (Made with spicy chicken, topped with
+        Mozzarella cheese and mint sauce
+        this fusion pizza is perfect for spice lovers).<b>289/-</b></h5>
+      <h5>  2.
+        Peri peri chicken
+
+        (A flavour packed pizza with a spicy kick -
+        chicken seasoned with peri peri flavouring
+        and a lot of cheese!).<b>289/-</b></h5>
+      <h5>  3. BBQ Chicken
+
+        (Pizza topped with barbeque sauce and
+        diced chicken topped with Mozzarella
+        cheese and baked to bubbly goodness.)<b>289/-</b></h5>
+      <h5>  4. Deviled Egg Pizza
+
+        (This unique flavoured pizza features
+        hard boiled eggs, onions, jalapenos and
+        Mozzarella cheese.)<b>289/-</b></h5>
+      <h5>  5.
+        Four Season Pizza.
+
+        (Pizza topped with grilled chicken, chicken
+        sausages, onions, capsicum and seasonal
+        herbs. You'll want to keep digging in!)<b>299/-</b></h5>
+      <h5>  6. Chicken Delight
+
+        (Flavourful chicken, creamy tomato
+        pure and golden corn make this pizza
+        hearty and satisfying.)<b>289/-</b></h5>
+      <h5>  7.
+        Sea Food Feast
+
+        This Seafood Pizza is a must-try for its
+        unique flavour and mouth-watering taste
+        Prawns, basa, calamari, olives, herbs and
+        cheese.)<b>329/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Mains</h1>
+      </div>
+      <div class="w3-container">
+
+      <h5>  1. Peri - Peri Chicken Steak
+        (Juicy grilled chicken breast in a peri
+        peri sauce. Served with buttered
+        veggies and rice.)<b>299/-</b></h5>
+      <h5>  2.
+        Stuffed Gill Chicken
+        (Tender grilled chicken breasts stuffed
+        with minced chicken, cheese and spinach
+        topped with a pepper sauce. Served
+        with buttered veggies and rice.) <b>299/-</b></h5>
+      <h5>  3.
+        New Yock Style Fried Chicken Steak.
+        (Chicken fried to golden perfection and
+        topped with the creamiest mushroom sauce
+        is sure to become a favourite! Served with
+        buttered veggies and rice.) <b>299/-</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Sea Food</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  GRILLED FISH
+
+        (Tender fish fillets smeared in a simple
+        marinade of lemon juice, butter and
+        salt, seared golden. Served with
+        mashed potatoes and grilled veggies.) <b>329/-</b></h5>
+      <h5>  2. American style fish
+        and chips
+        (Perfectly crumb fried fish. Served
+        with fried potatoes and homemade
+        tartar sauce.)<b>279/-</b></h5>
+      <h5>  3. GRILLED PRAWNS
+
+        (Juicy tiger prawns coated in a herb,
+        lemon, butter sauce and grilled to
+        perfection. Served with rice and grilled
+        veggies.)<b>329/-</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>BRUSCHETTA</h1>
+      </div>
+      <div class="w3-container">
+      <h5>  1. Chicken Bruschetta
+  (Chicken, fresh basil, balsamic
+  vinegar, and spread on a warm
+  slice of perfectly crisp
+  toasted bread)<b>169/-</b></h5>
+<h5>  2. Prawns Bruschetta
+  (Prawns,fresh basil, balsamic
+  vinegar, and spread on a
+  warm slice of perfectly crisp
+  toasted bread)<b>149/-</b> </h5>
+
+      </div>
+    </div>
+  </div>
+  <div id="Breakfast" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('Breakfast').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Breakfast</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1.TOASTIES VEG  <b>159/-</b></h5>
+        <h6>(1. Mushroom - Toasted bread
+          topped /mushrooms and cheese.</h6>
+        <h6>Toasted bread topped with baked
+          beans and cheese.</h6>
+        <h6>3. Bell Peppers -
+          Toasted bread topped with bell</h6>
+        peppers and cheese.)
+        <h5>2.
+          TOASTIES NON-VEG <b>179/-</b>
+          <h6>(1. Creamy Grilled Chicken -
+            Toasted bread topped with
+            creamy grilled chicken and
+            cheese.bell peppers and cheese.</h6>
+          <h6>(2. Grilled Sausage - Toasted
+            bread topped with grilled sausag.
+            es and cheese.)</h6>
+        </h5>
+        <h5>3. FRENCH TOAST
+          (Bread, soaked in a mixture of beaten
+          eggs with milk and salt and pepper and
+          toasted - fluffy on the inside, gloriously
+          browned on the outside.) <b>169/-</b> </h5>
+        <h5>4. EGG KEIRIWAL
+          (Crisp toasted pav, melted cheese, soft
+          and delicious fried egg topped with a
+          hint of green chilies - Mr Devi Prasad
+          Kejriwal special.) <b>159/-</b> </h5>
+        <h5>. EGGLESS Breakfast</h5>
+        (Hearty and wholesome scrambled
+        paneer along with grilled tomatoes,
+        hash brown potatoes, baked beans
+        and mushrooms.) <b>185/-</b>
+        <h5>6.
+          AMERICAN Breakfast <b>210/-</b> </h5>
+        <h5>
+          (A delicious, protein-packed breakfast that
+          is loaded with grilled smoked sausages,
+          hash brown potatoes, fried onion rings,
+          scrambled or fried egg with slices of bread.) </h5>
+        <h5> 7.ENGLISH Breakfast
+          (The ultimate in comfort food - grilled
+          sausages, baked beans, hash brown
+          potatoes, grilled tomatoes and mushrooms,
+          fried egg and slices of bread.) <b>210/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Omelette</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1.Boiled Egg <b>85/-</b></h5>
+        <h5>2.Classic <b>105/-</b></h5>
+        <h5>3.Masala Omelette <b>105/-</b></h5>
+        <h5>4.Mushroom <b>105/-</b></h5>
+        <h5>5.Scrambled Egg <b>105/-</b></h5>
+        <h5>6.Fried Egg <b>105/-</b></h5>
+        <h5>7.Sunny side up <b>105/-</b></h5>
+        <h5>8.Masala Bead Omelette <b>105/-</b></h5>
+        <h5>9.Plain Bread Omelette<b>105/-</b></h5>
+        <h5>10.Classic Bread Omelette <b>105/-</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Veg Maggie</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Veg cheesy maggie <b>105/-</b></h5>
+        <h5> 2. Veg day maggie <b>105/-</b></h5>
+        <h5> 3. Veg geavy maggie <b>105/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Non-Veg Maggie</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1.Galled chicken <b>139/-</b></h5>
+        <h5> 2.Galled Sausage <b>139/-</b></h5>
+
+
+
+      </div>
+    </div>
+  </div>
+  <div id="Deserts" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('Deserts').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Special Deserts</h1>
+      </div>
+      <div class="w3-container">
+        <h5> 1. Plain Brownie <b>105/-</b> </h5>
+        <h5> 2. Walnut Brownie <b>159/-</b> </h5>
+        <h5> 3.Walnut Brownie with Ice Cream <b>179/-</b> </h5>
+        <h5> 4.Deep Fried Ice Cream. <b>199/-</b> </h5>
+        <h5> 5.Sizzling Walnut Brownie with Ice Cream <b>279/-</b> </h5>
+        <h5> 6.Vanila Ice Cream with Hazelnut Syrup (or. Irish Syrup) <b>139/-</b> </h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Waffles</h1>
+      </div>
+      <div class="w3-container">
+        <h5><b>1. Crispy Waffle
+          </b>149/-</h5>
+        <h6> 1. Strawberry<h6>
+            <h6> 2. Honey<h6>
+                <h6> 3. Nutella<h6>
+                    <h6> 4. Chocolate<h6>
+                        <h6> 5. Maple Syrup<h6>
+                            <h6> 6. Blue Berry<h6>
+                                <h6> 7. Caramel<h6>
+                                    <h5> 2. Red Velvet Waffle <b>149/-</b></h5>
+                                    <h6> 1. Strawberry<h6>
+                                        <h6> 2. Honey<h6>
+                                            <h6> 3. Nutella<h6>
+                                                <h6> 4. Chocolate<h6>
+                                                    <h6> 5. Maple Syrup<h6>
+                                                        <h6> 6. Blue Berry<h6>
+                                                            <h6> 7. Caramel<h6>
+                                                                <h5> 3. Brownie Waffle with ice cream <b>179/-</b></h5>
+                                                                <h5> 4.Crispy Waffle with ice cream <b>159/-</b></h5>
+                                                                <h5> 5. Red Velvet Waffle with ice cream <b>179/-</b></h5>
+
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Ice Cream Scoops</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Vanilla <b>95/-</b></h5>
+        <h5>Chocolate <b>105/-</b></h5>
+
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Ice Cream Cones</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1. Plain Cone<b>25/-</b></h5>
+        <h5> 2. Chocolate Cone<b>35/-</b></h5>
+        <h5> 3.Red Velvet Cone<b>45/-</b></h5>
+        <h5>4 Chocolate and nuts<b>55/-</b></h5>
+
+      </div>
+    </div>
+  </div>
+  <div id="Addons" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('Addons').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Add-Ons</h1>
+      </div>
+      <div class="w3-container">
+        <h5>1. Broccoli
+          <b>35/-</b>
+        </h5>
+        <h5> 2.
+          MUshroom
+          <b>40/-</b>
+        </h5>
+        <h5> 3.
+          Olives
+          <b>40/-</b>
+        </h5>
+        <h5> 4. Jolopenos
+          <b>40/-</b>
+        </h5>
+        <h5> 5. Bread 2 Slice
+          <b>35/-</b>
+        </h5>
+        <h5> 6.
+          Cheese Slice (1 Slice)….. 25 <b>25/-</b> </h5>
+        <h5> 7. Mozzetala Cheese…
+          <b>35/-</b>
+        </h5>
+        <h5> 8. SWeet Corn
+          <b>25/-</b>
+        </h5>
+        <h5> 9. Paneet
+          <b>30/-</b>
+        </h5>
+        <h5> 10. Extra Eggs
+          <b>35/-</b>
+        </h5>
+        <h5> 11. Extra Chicken
+          <b>40/-</b>
+        </h5>
+        <h5> 12. Extra Chicken
+
+          Sausage <b>75/-</b></h5>
+        <h5> 13. Baked Beans
+          <b>35/-</b>
+        </h5>
+        <h5> 14. Chocolate Sauce
+          <b>30/-</b>
+        </h5>
+        <h5> 15. Strawbery Sauce ..
+          <b>30/-</b>
+        </h5>
+        <h5> 16. Caramel Sauce
+          <b>30/-</b>
+        </h5>
+        <h5> 17. Bluebercy Sauce
+          <b>30/-</b>
+        </h5>
+        <h5> 18. Hotdog Bread
+          <b>25/-</b>
+        </h5>
+        (1 piece)
+        <h5> 19. Vanilla Ice cream
+          <b>45/-</b>
+        </h5>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
