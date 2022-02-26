@@ -199,12 +199,12 @@ nav #nav-close {
   position: fixed;
   top: 40px;
   right: 40px;
-  font-size: 1.5em;
+  font-size: 2rem;
   cursor: pointer;
   animation: fadeDown 0.5s forwards;
   animation-delay: 1.1s;
   opacity: 0;
-  color: orange;
+  color: black;
   transform: translateY(-20px);
 }
 @keyframes fadeDown {
