@@ -104,11 +104,15 @@ header.open .triangle.left {
 header.open .triangle.right {
   clip-path: polygon(100% 0, 100% 0, 100% 100%);
 }
-header.open button {
-  left: 40px;
-  bottom: 40px;
-  width: 50px;
-  border-radius: 50%;
+
+  header.open button {
+    align-items: center;
+      /* left: 859px; */
+      /* bottom: 1035px; */
+      width: 80px;
+      border-radius: 50%;
+  
+
 }
 header.open button:before {
   opacity: 0;
@@ -232,8 +236,9 @@ nav #nav-close {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: orange;
+  font-size: 1rem;
+  color: black;
 }
 
 .container {
@@ -328,4 +333,13 @@ color: black;
 }
 .burgerhead{
   color: white;
+}
+.deliveryhead{
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  background-color: orange;
+}
+.aboutus{
+  font-size: 6rem;
+  font-family: 'Dancing Script', cursive;
 }
