@@ -44,7 +44,7 @@ header button {
   position: absolute;
   bottom: 100px;
   left: calc(50% - 60px);
-  width: 143px;
+  width: 175px;
   height: 86px;
   border: 0;
   box-shadow: 2px 1px 20px 0 rgba(0, 0, 0, 0.5);
@@ -70,8 +70,8 @@ header button:before, header button:after {
 }
 header button:before {
   content: "";
-  opacity: 1;
-  left: 53px;
+      opacity: 1;
+      left: 67px;
 }
 header button:after {
   content: "";
@@ -107,11 +107,10 @@ header.open .triangle.right {
 
   header.open button {
     align-items: center;
-      /* left: 859px; */
-      /* bottom: 1035px; */
+      left: 50px;
+      top: 105px;
       width: 80px;
-      border-radius: 50%;
-  
+  }
 
 }
 header.open button:before {
@@ -342,4 +341,8 @@ color: black;
 .aboutus{
   font-size: 6rem;
   font-family: 'Dancing Script', cursive;
+}
+.buttontext{
+  color:orange;
+    font-family: "Montserrat", sans-serif;
 }
